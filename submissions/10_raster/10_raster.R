@@ -42,5 +42,5 @@ ggplot() +
   theme_void() +
   theme(legend.position = "none",
         plot.background = element_rect(fill = "#f0f0f0", colour = NA))
-ggsave(here("submissions", "21_elevation", "21_elevation.png"), width = 3, height = 3, units = "in")
+ggsave(here("submissions", "10_raster", "10_raster.png"), width = 3, height = 3, units = "in")
 
