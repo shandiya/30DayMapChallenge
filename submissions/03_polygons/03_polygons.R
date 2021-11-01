@@ -27,9 +27,12 @@ ggplot(data = foots_sf) +
   labs(caption = caption) +  
   theme_void() +
   theme(legend.position = "none",
-        text = element_text(family = "CenturyGothic"))
+        text = element_text(family = "CenturyGothic"),
+        plot.background = element_rect(fill = 'white', colour = 'white'),
+        panel.background = element_rect(fill = 'white', colour = 'white')) 
 
-ggsave(here("submissions", "03_polygons", "03_polygons.png"), width = 3, height = 3, units = "in")
+ggsave(here("submissions", "03_polygons", "03_polygons.png"), 
+       dpi = 300, type = "cairo", width = 4, height = 4, units = "in")
 
   
 

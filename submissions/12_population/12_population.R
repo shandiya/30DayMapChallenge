@@ -74,8 +74,9 @@ ggplot(data = cart) +
     legend.position = "top",
     legend.margin = margin(t = 10, b = 2),
     legend.title = element_text(size = 7),
-    legend.text = element_text(margin = margin(t = 3))
-    )
+    legend.text = element_text(margin = margin(t = 3)),
+    plot.background = element_rect(fill = 'white', colour = 'white'),
+    panel.background = element_rect(fill = 'white', colour = 'white')) 
 
-ggsave(here("submissions", "12_population", "12_population.png"),
-       dpi = 300, type = "cairo", width = 4, height = 4, units = "in")    
+  ggsave(here("submissions", "12_population", "12_population.png"),
+       type = "cairo", width = 4, height = 4, units = "in")    
