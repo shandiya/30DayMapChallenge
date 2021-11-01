@@ -45,9 +45,12 @@ ggmap(get_stamenmap(bbox, maptype = "terrain-lines", zoom = 15)) +
   theme_void() +
   theme(text = element_text(family = "futura"),
         plot.title = element_text(hjust = 1, size = 20), 
-        plot.caption = element_text(hjust = 1, size = 12)) 
+        plot.caption = element_text(hjust = 1, size = 12),
+        plot.background = element_rect(fill = 'white', colour = 'white'),
+        panel.background = element_rect(fill = 'white', colour = 'white')) 
 
-ggsave(here("submissions", "01_points", "01_points.png"), width = 3, height = 3, units = "in")
+ggsave(here("submissions", "01_points", "01_points.png"), 
+       dpi = 300, type = "cairo", width = 4, height = 4, units = "in")
 
 
   
