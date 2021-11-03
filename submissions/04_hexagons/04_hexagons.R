@@ -13,7 +13,7 @@ library(scales)
 library(showtext)
 
 # font_paths()
-font_add(family = "CenturyGothic", regular = "GOTHIC.ttf") 
+font_add(family = "lato", regular = "Lato-Regular.ttf") 
 showtext_auto()
 
 
@@ -60,26 +60,28 @@ ggplot() +
 
 
 # hex plot!----------
-ggplot() +
+p <- ggplot() +
   geom_hex(data = sfw_tidy,
            aes(x = decimalLongitude, y = decimalLatitude),
            bins = 70) +
   annotate("text", x = 147, y = -34.5, 
            label = "Where are Superb Fairy-wrens seen in Victoria?",
-           colour = "white", size = 6) +
-  annotate("text", x = c(144.9, 149.1), y = c(-34.85, -34.85), 
+           colour = "white", size = 7) +
+  annotate("text", x = c(144.9, 149.1), y = c(-34.83, -34.83), 
            label = c("Few", "Many"),
-           colour = "white", size = 4) +
+           colour = "white", size = 5) +
   scale_fill_gradient(high = "#BBEDF2", low = "#0D1360", trans = "log", 
                       guide = guide_legend(title = NULL, nrow = 1, label.position = "bottom",
                                            keyheight = unit(1, units = "mm"), keywidth = unit(5, units = "mm"))) +
   labs(caption = "Shandiya Balasubramaniam ● Data: Atlas of Living Australia ● DOI: https://doi.org/10.26197/ala.798be699-5e11-4486-9e01-417ddc37972e") +
   theme_void() +
   coord_sf() +
-  theme(text = element_text(family = "CenturyGothic"),
+  theme(text = element_text(family = "lato"),
     plot.background = element_rect(fill = "black", colour = NA),
-    plot.caption = element_text(colour = "white", hjust = 0.05),
+    plot.caption = element_text(colour = "white", hjust = 0.05, size = 12),
     legend.position = c(0.65, 0.8))
-ggsave(here("submissions", "04_hexagons", "04_hexagons.png"), width = 5, height = 3, units = "in")
+
+ggsave(here("submissions", "04_hexagons", "04_hexagons.png"), 
+       p, dpi = 300, type = "cairo",width = 4, height = 3, units = "in")
  
 
