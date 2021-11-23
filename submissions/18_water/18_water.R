@@ -1,4 +1,8 @@
 
+# 30DayMapChallenge Day 18: Water - Bathymetry of Lake Burley Griffin
+# Shandiya Balasubramaniam
+# 18 November 2021
+
 library(here)
 library(sf)
 library(ggplot2)
