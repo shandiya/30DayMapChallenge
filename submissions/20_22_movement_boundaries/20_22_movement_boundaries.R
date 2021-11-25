@@ -63,6 +63,8 @@ p <- ggplot() +
   theme_void() +
   theme(
     legend.position = "none",
+    plot.background = element_rect(colour = "white", fill = "white"),
+    panel.background = element_rect(colour = "white", fill = "white"),
     plot.title = element_text(
       family = "spartan",
       size = 50,
