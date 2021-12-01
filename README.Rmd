@@ -1,0 +1,44 @@
+---
+title: 30DayMapChallenge
+output: github_document
+---
+
+
+Submissions to the #30DayMapChallenge 2021  
+
+![challenges](data/30daychallenge.png)
+
+
+### Day 1: Points  
+
+![](submissions/01_points/01_points.png){width=75%}  
+
+
+### Day 2: Lines  
+
+![](submissions/02_lines/02_lines.png){width=75%} 
+
+### Day 3: Polygons  
+
+![](submissions/03_polygons/03_polygons.png){width=75%} 
+
+### Day 4: Hexagons  
+
+![](submissions/04_hexagons/04_hexagons.png){width=75%} 
+
+### Day 5: OpenStreetMap  
+
+![](submissions/05_osm/05_osm.png){width=75%} 
+
+
+### Days 6-8: Red, Green, Blue  
+
+![](submissions/06-08_red-green-blue/06-08_red-green-blue.png){width=75%} 
+
+### Day 9: Monochrome  
+
+![](submissions/09_monochrome/09_monochrome.png){width=75%} 
+
+### Day 10: Raster  
+
+![](submissions/10_raster/10_raster.png){width=75%} 
