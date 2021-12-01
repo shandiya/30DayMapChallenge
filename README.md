@@ -1,6 +1,3 @@
-30DayMapChallenge
-================
-
 Submissions to the \#30DayMapChallenge 2021
 
 ![challenges](data/30daychallenge.png)
@@ -36,3 +33,4 @@ Submissions to the \#30DayMapChallenge 2021
 ### Day 10: Raster
 
 <img src="submissions/10_raster/10_raster.png" style="width:75.0%" />
+
