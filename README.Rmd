@@ -10,12 +10,11 @@ Submissions to the #30DayMapChallenge 2021
 
 ### Day 1: Points  
 
-![](submissions/01_points/01_points.png){width=75%}  
-
+![](submissions/01_points/01_points.png){width=75%}
 
 ### Day 2: Lines  
 
-![](submissions/02_lines/02_lines.png){width=75%} 
+![](submissions/02_lines/02_lines.png){width=75%}
 
 ### Day 3: Polygons  
 
@@ -23,12 +22,11 @@ Submissions to the #30DayMapChallenge 2021
 
 ### Day 4: Hexagons  
 
-![](submissions/04_hexagons/04_hexagons.png){width=75%} 
+![](submissions/04_hexagons/04_hexagons.png){width=75%}
 
 ### Day 5: OpenStreetMap  
 
 ![](submissions/05_osm/05_osm.png){width=75%} 
-
 
 ### Days 6-8: Red, Green, Blue  
 
@@ -41,3 +39,4 @@ Submissions to the #30DayMapChallenge 2021
 ### Day 10: Raster  
 
 ![](submissions/10_raster/10_raster.png){width=75%} 
+
